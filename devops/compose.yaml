@@ -1,4 +1,4 @@
-# Base: agente contra Microsoft Foundry real, con las variables FOUNDRY_* de ../.env
+# Base: agente contra Microsoft Foundry real, con las variables FOUNDRY_* de ../.env.bk
 #   docker compose -f devops/compose.yaml up --build agent
 #   docker compose -f devops/compose.yaml run --rm --build tests
 # Día 1 sin Azure: sumar devops/compose.mock.yaml (ver README)
@@ -8,7 +8,7 @@ services:
     image: agent:local
     ports: ["8000:8000"]
     env_file:
-      - path: ../.env
+      - path: ../.env.bk
         required: false
 
   tests:

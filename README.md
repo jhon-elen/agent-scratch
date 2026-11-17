@@ -42,7 +42,7 @@ Esta copia está en `main` (el arquetipo de partida). Para saber en qué versió
 ## Levantarlo
 
 ```bash
-copy .env.example .env
+copy .env.bk.example .env.bk
 uv sync
 uv run pytest
 uv run python dev/mock_foundry.py
