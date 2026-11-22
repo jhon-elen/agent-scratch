@@ -1,0 +1,1 @@
+{"id": "loans-AIE36WC", "type": "answerable", "history": [], "question": "¿Qué es la TCEA de un préstamo?", "expected_intent": "product_question", "expected_sources": ["loans-glossary.md"], "forbidden_sources": [], "key_facts": ["comisiones y seguros"]}
